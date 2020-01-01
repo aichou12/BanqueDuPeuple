@@ -1,0 +1,18 @@
+RewriteEngine On
+
+RewriteRule ^accueil$ accueil.php
+RewriteRule ^.{0}$ index.php
+
+RewriteRule ^bootstrap$ public/css/bootstrap.min.css
+
+RewriteRule ^clients$ src/view/client/liste.php
+
+RewriteRule ^comptes$ src/view/compte/liste.php
+
+
+RewriteRule ^clientController$ src/controller/clientController.php
+
+RewriteRule ^compteController$ src/controller/compteController.php
+
+
+
